@@ -1,6 +1,6 @@
 # Snap | Remote work Landing Page
 
-![](./screenshort.png)
+![](./screenshot.png)
 
 ### Links
 
