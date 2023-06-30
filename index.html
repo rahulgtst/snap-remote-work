@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+    </style>
+
+    <title>Snap | Make Remote Work</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="logo" />
+      <nav>
+        <ul>
+          <li class="dropdown-elements">
+            Features
+            <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" />
+            <ul class="dropdown">
+              <li>
+                <img src="images/icon-todo.svg" alt="icon-todo" />
+                Todo List
+              </li>
+              <li>
+                <img src="images/icon-calendar.svg" alt="icon-calendar.svg" />
+                Calender
+              </li>
+              <li>
+                <img src="images/icon-reminders.svg" alt="icon-reminders.svg" />
+                Reminder
+              </li>
+              <li>
+                <img src="images/icon-planning.svg" alt="icon-planning" />
+                Planning
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown-elements">
+            Company
+            <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" />
+            <ul class="dropdown">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <section class="buttons">
+          <button>Login</button> <button id="register">Register</button>
+        </section>
+      </nav>
+      <img src="images/icon-menu.svg" alt="icon-menu" id="menu" />
+    </header>
+    <main>
+      <article>
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button id="learn">Learn more</button>
+        <section class="logos">
+          <img src="images/client-databiz.svg" alt="client-databiz" />
+          <img src="images/client-audiophile.svg" alt="client-audiophile" />
+          <img src="images/client-meet.svg" alt="client-meet" />
+          <img src="images/client-maker.svg" alt="client-maker" />
+        </section>
+      </article>
+      <aside>
+        <picture>
+          <source
+            media="(min-width: 600px)"
+            srcset="images/image-hero-desktop.png"
+          />
+          <img src="images/image-hero-mobile.png" alt="image-hero-mobile" />
+        </picture>
+      </aside>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
